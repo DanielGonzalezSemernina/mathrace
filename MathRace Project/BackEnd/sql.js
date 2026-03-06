@@ -3,7 +3,7 @@ module.exports = { getUsuariInfoForLogin, registrarUsuari, getUsuariInfo, getAll
 const connection = mysql.createPool({
     host: 'localhost',
     user: 'root',
-    password: '26122003Da.',
+    password: '',
     database: 'math_race'
 });
 
