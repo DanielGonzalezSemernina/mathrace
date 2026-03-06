@@ -20,7 +20,7 @@ const arxiuPython = path.join(__dirname, "..", "M10/graficos.py");
 const connection = mysql.createPool({
   host: 'localhost',
     user: 'root',
-    password: '26122003Da.',
+    password: '',
     database: 'math_race'
 });
 const httpServer = http.createServer(app);
