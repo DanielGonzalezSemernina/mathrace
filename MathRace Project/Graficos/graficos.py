@@ -5,7 +5,7 @@ from datetime import date
 import os
 
 def get_data_from_mongodb():
-    client = MongoClient('mongodb+srv://grup4:Pedralbes23@cluster2.agqywkh.mongodb.net/?retryWrites=true&w=majority')
+    client = MongoClient('mongodb+srv://dangon:1234@mathrace.fccxlpg.mongodb.net/?appName=MathRace')
     db = client['grup4']
     collection = db['preguntes']
     data = pd.DataFrame(list(collection.find()))
